@@ -264,6 +264,8 @@ main .our-range .package-section .package-img {
   position: absolute;
   left: 0;
   bottom: 0;
+  max-width: 659px;
+  width: 100%;
 }
 main .rectangle-2 {
   width: 100%;
@@ -518,20 +520,19 @@ footer .line {
   background: #ffffff;
 }
 footer .footer-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (3fr 1fr)[12];
+  grid-template-columns: repeat(12, 3fr 1fr);
   height: 63px;
 }
 footer .footer-nav .p {
   margin-left: 15px;
 }
 footer .footer-nav .phone {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 4;
+  grid-column: 2/6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -546,6 +547,9 @@ footer .footer-nav .phone {
   width: 100%;
 }
 footer .footer-nav .email {
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 6;
+  grid-column: 9/15;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -560,6 +564,9 @@ footer .footer-nav .email {
   color: #ffffff;
 }
 footer .footer-nav .map {
+  -ms-grid-column: 17;
+  -ms-grid-column-span: 3;
+  grid-column: 17/20;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -243,6 +243,8 @@ main{
                 position: absolute;
                 left: 0;
                 bottom: 0;
+                max-width: 659px;
+                width: 100%;
             }
 
         }
@@ -463,15 +465,15 @@ footer{
         background: #ffffff;
     }
     .footer-nav{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(12,3fr 1fr);
         height: 63px;
         .p{
             margin-left: 15px;
         }
         
         .phone{
+            grid-column: 2/6;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -480,6 +482,7 @@ footer{
             width: 100%;
         }
         .email{
+            grid-column: 9/15;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -489,6 +492,7 @@ footer{
 
         }
         .map{
+            grid-column: 17/20;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -497,4 +501,5 @@ footer{
             color: #ffffff;
         }
     }
+    
 }
