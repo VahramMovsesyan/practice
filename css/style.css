@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-color: #262626;
+}
+
+.section {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 795px;
+  font-family: Arial;
+}
+header .header-contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header .header-section {
+  padding: 28px 0 0 0;
+  height: 795px;
+}
+header .header-section .header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .header-section .header-menu .nbtn {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  color: #FFFFFF;
+  font-size: 20px;
+  cursor: pointer;
+}
+header .header-section .nav-menu-list {
+  max-width: 620px;
+  width: 100%;
+}
+header .header-section .nav-menu-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header .header-section .nav-menu-list ul a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+}
+header .header-section h1 {
+  margin: 0;
+  font-size: 27px;
+  color: #FFFFFF;
+  font-family: Roboto;
+}
+
+.text-section {
+  margin-top: 174px;
+  max-width: 844px;
+  display: inline-block;
+}
+.text-section .text-section-title {
+  font-size: 52px;
+  color: #DAA823;
+}
+.text-section p {
+  color: #ffffff;
+  max-width: 844px;
+  font-size: 25px;
+  margin: 22px 0 40px 0;
+}
+.text-section .btn {
+  width: 224px;
+  height: 50px;
+  background: #DAA823;
+  border-radius: 5px;
+  border: none;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.img-section {
+  max-width: 767px;
+  width: 100%;
+  height: 673px;
+  position: relative;
+}
+.img-section .img1 {
+  position: absolute;
+  max-width: 388px;
+  height: 501px;
+  margin-bottom: 173px;
+  right: 0;
+  top: 0;
+}
+.img-section .img2 {
+  position: absolute;
+  z-index: 2;
+  max-width: 515px;
+  height: 515px;
+  right: 90px;
+  bottom: 0;
+}
+.img-section .img3 {
+  position: absolute;
+  max-width: 359px;
+  height: 359px;
+  left: 0;
+  margin-top: 81px;
+}
