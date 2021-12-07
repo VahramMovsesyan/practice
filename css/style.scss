@@ -117,30 +117,173 @@ header{
         margin-top: 81px;
     }
 }
-// main{
-//     .rectangle-1{
-//         width: 100%;
-//         height: 133px;
-//         .rectangle-section{
-//             display: flex;
-//             justify-content: space-between;
-//             align-items: center;
-//             max-width: 1440px;
-//             width: 100%;
-//             padding: 12px 0;
-//             .rectangle-child1{
-//                 max-width: 223px;
-//                 width: 100%;
-//                 height: 110px;
-//             }
-//             p{
-//                 color: #A1A1A1;
-//                 font-family: Roboto;
-//                 font-size: 20px;
-//                 max-width: 92px;
-//                 height: 52px;
-//                 display: inline-block;
-//             }
-//         }
-//     }
-// }
+main{
+    .title-section{
+        font-weight: bold;
+        font-size: 35px;
+        font-family: Arial;
+        color: #FFFFFF;
+        span{
+            color: #DAA823;
+        }
+    }
+    .rectangle-1{
+        width: 100%;
+        height: 133px;
+        
+        .rectangle-section{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1440px;
+            width: 100%;
+            padding: 12px 0;
+            margin: 0 auto;
+            .rectangle-child{
+                max-width: 223px;
+                width: 100%;
+                height: 110px;
+                display: flex;
+                align-items:center;
+                justify-content: space-between;
+            }
+            p{
+                color: #A1A1A1;
+                font-family: Roboto;
+                font-size: 20px;
+                max-width: 92px;
+                height: 52px;
+                display: inline-block;
+                text-align: center;
+            }
+        }
+    }
+    .our-range{
+        .title{
+            margin: 100px 0;
+            text-align: center;
+        }
+        .bags-section{
+            max-width: 1440px;
+            width: 100%;
+            height: 705px;
+            position: relative;
+            .bags-info{
+                position: absolute;
+                background: #404040;
+                border-radius: 5px;
+                max-width: 832px;
+                width: 100%;
+                height: 574px;
+                left: 0;
+                top: 0;
+                .title-in{
+                    text-align: center;
+                    margin: 34px 0 81px 0;
+                }
+                .about{
+                    max-width: 615px;
+                    margin: 0 158px 109px 59px;
+                }
+            }
+            .bag-img{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+            }
+        }
+        .text{
+            display: inline-block;
+            font-family: arial;
+            font-weight: bold;
+            font-size: 22px;
+            color: #FFFFFF;
+        }
+        .size{
+            display: inline-block;
+            margin: 30px 108px 32px 108px;
+            font-size: 20px;
+            color: #878787;
+
+        }
+        .price{
+            display: inline-block;
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 20px;
+            color: #ffffff;
+        }
+        .package-section{
+            max-width: 1440px;
+            width: 100%;
+            height: 713px;
+            position: relative;
+            margin: 100px 0;
+            .package-info{
+                position: absolute;
+                right: 0;
+                top: 0;
+                background: #404040;
+                border-radius: 5px;
+                max-width: 832px;
+                width: 100%;
+                height: 648px;
+                .title-in{
+                    text-align: center;
+                    margin: 34px 0 15px 0;
+                }
+                .about{
+                    max-width: 615px;
+                    height: 565px;
+                    margin: 0 86px 48px 130px;
+                }
+            }
+            .package-img{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+            }
+
+        }
+        
+    }
+    .rectangle-2{
+        width: 100%;
+        height: 263px;
+        background: #404040;
+        display: flex;
+        align-items: center;
+        .parent-section{
+            max-width: 1440px;
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            p{
+                font-family: Arial;
+                font-size: 20px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            .child-1-section{
+                max-width: 293px;
+                width: 100%;
+                height: 149px;
+            }
+            .child-2-section{
+                max-width: 293px;
+                width: 100%;
+                height: 155px;
+            }
+            .child-3-section{
+                max-width: 402px;
+                width: 100%;
+                height: 155px;
+            }
+            .svg{
+                text-align: center;
+                margin-bottom: 23px;
+            }
+        }
+    }
+}

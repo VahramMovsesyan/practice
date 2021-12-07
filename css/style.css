@@ -129,3 +129,185 @@ header .header-section h1 {
   left: 0;
   margin-top: 81px;
 }
+
+main .title-section {
+  font-weight: bold;
+  font-size: 35px;
+  font-family: Arial;
+  color: #FFFFFF;
+}
+main .title-section span {
+  color: #DAA823;
+}
+main .rectangle-1 {
+  width: 100%;
+  height: 133px;
+}
+main .rectangle-1 .rectangle-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1440px;
+  width: 100%;
+  padding: 12px 0;
+  margin: 0 auto;
+}
+main .rectangle-1 .rectangle-section .rectangle-child {
+  max-width: 223px;
+  width: 100%;
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+main .rectangle-1 .rectangle-section p {
+  color: #A1A1A1;
+  font-family: Roboto;
+  font-size: 20px;
+  max-width: 92px;
+  height: 52px;
+  display: inline-block;
+  text-align: center;
+}
+main .our-range .title {
+  margin: 100px 0;
+  text-align: center;
+}
+main .our-range .bags-section {
+  max-width: 1440px;
+  width: 100%;
+  height: 705px;
+  position: relative;
+}
+main .our-range .bags-section .bags-info {
+  position: absolute;
+  background: #404040;
+  border-radius: 5px;
+  max-width: 832px;
+  width: 100%;
+  height: 574px;
+  left: 0;
+  top: 0;
+}
+main .our-range .bags-section .bags-info .title-in {
+  text-align: center;
+  margin: 34px 0 81px 0;
+}
+main .our-range .bags-section .bags-info .about {
+  max-width: 615px;
+  margin: 0 158px 109px 59px;
+}
+main .our-range .bags-section .bag-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+main .our-range .text {
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+main .our-range .size {
+  display: inline-block;
+  margin: 30px 108px 32px 108px;
+  font-size: 20px;
+  color: #878787;
+}
+main .our-range .price {
+  display: inline-block;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+}
+main .our-range .package-section {
+  max-width: 1440px;
+  width: 100%;
+  height: 713px;
+  position: relative;
+  margin: 100px 0;
+}
+main .our-range .package-section .package-info {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #404040;
+  border-radius: 5px;
+  max-width: 832px;
+  width: 100%;
+  height: 648px;
+}
+main .our-range .package-section .package-info .title-in {
+  text-align: center;
+  margin: 34px 0 15px 0;
+}
+main .our-range .package-section .package-info .about {
+  max-width: 615px;
+  height: 565px;
+  margin: 0 86px 48px 130px;
+}
+main .our-range .package-section .package-img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+main .rectangle-2 {
+  width: 100%;
+  height: 263px;
+  background: #404040;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .rectangle-2 .parent-section {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+main .rectangle-2 .parent-section p {
+  font-family: Arial;
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+main .rectangle-2 .parent-section .child-1-section {
+  max-width: 293px;
+  width: 100%;
+  height: 149px;
+}
+main .rectangle-2 .parent-section .child-2-section {
+  max-width: 293px;
+  width: 100%;
+  height: 155px;
+}
+main .rectangle-2 .parent-section .child-3-section {
+  max-width: 402px;
+  width: 100%;
+  height: 155px;
+}
+main .rectangle-2 .parent-section .svg {
+  text-align: center;
+  margin-bottom: 23px;
+}
