@@ -96,8 +96,6 @@ header{
     position: relative;
     .img1{
         position: absolute;
-        max-width: 388px;
-        height: 501px;
         margin-bottom:173px;
         right: 0;
         top: 0;
@@ -105,15 +103,11 @@ header{
     .img2{
         position: absolute;
         z-index: 2;
-        max-width: 515px;
-        height: 515px;
         right: 90px;
         bottom: 0;
     }
     .img3{
         position: absolute;
-        max-width: 359px;
-        height: 359px;
         left: 0;
         margin-top: 81px;
     }
